@@ -12,3 +12,11 @@ Analog Eddy Current Pickup (AECP) is an analog eddy current signal conditioner c
 - Guitar / musical instrument pickup
 - Vibration sensing of metallic objects
 
+<h2>Audio examples</h2>
+
+https://github.com/user-attachments/assets/294e206a-773d-46ed-8725-847c0cfb6f45
+
+https://github.com/user-attachments/assets/1e3492f7-05f8-4548-aefb-00401e7eae84
+
+
+
