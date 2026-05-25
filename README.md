@@ -3,7 +3,12 @@ Analog Eddy Current Pickup (AECP) is an analog eddy current signal conditioner c
 
 <h2>PCBA (Printed Circuit Board Assembly) </h2>
 
+![AECP_A_PCB_TOP](/AECP_A/documentation/images/pcba_top_small.jpg)
+
+![AECP_A_PCB_BOTTOM](/AECP_A/documentation/images/pcba_bottom_small.jpg)
+
 <h2>Use Cases</h2>
+
 - Guitar / musical instrument pickup
 - Vibration sensing of metallic objects
 
