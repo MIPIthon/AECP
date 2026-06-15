@@ -13,8 +13,10 @@ Potential fix: Replace INA188 with INA828 (no chopper). If the common-mode volta
 
 
 
+
 <h2>Notes</h2>
-- Notch filter intended to suppress the signal frequency of two times the resonance frequency after rectification is not necessary. The currently used resistor and capacitor values are dummy values. 
+- Notch filter intended to suppress the frequency component at two times the resonance frequency after rectification is not necessary. The currently used resistor and capacitor values are dummy values. 
+<img width="720" height="546" alt="grafik" src="https://github.com/user-attachments/assets/35c2b70f-8db9-4ccb-9607-3ec4676fe1b5" />
 
 <h2>Use Cases</h2>
 
