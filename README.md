@@ -17,6 +17,16 @@ FFT average: ACOUT, NoTarget, INA disconnected => White noise
 FFT average: ACOUT and TP6,  NoTarget, INA connected => White noise + beat frequency
 <img width="1287" height="725" alt="grafik" src="https://github.com/user-attachments/assets/edfff3f9-5ea4-4853-9830-5e707f126092" />
 
+FFT average: TXI, NoTarget => Very low distortion
+<img width="1072" height="595" alt="grafik" src="https://github.com/user-attachments/assets/eadc42a3-d369-4f35-a0e0-d25f3f39fb67" />
+
+Time domain: TP6 => Distortion
+<img width="1296" height="725" alt="grafik" src="https://github.com/user-attachments/assets/b6596320-cca7-4906-8a33-5cb793261070" />
+
+Time domain: TXI => No distortion
+<img width="1296" height="725" alt="grafik" src="https://github.com/user-attachments/assets/b6596320-cca7-4906-8a33-5cb793261070" />
+
+
 <h2>Notes</h2>
 - Notch filter intended to suppress the frequency component at two times the resonance frequency after rectification is not necessary. The currently used resistor and capacitor values are dummy values. 
 <img width="720" height="546" alt="grafik" src="https://github.com/user-attachments/assets/35c2b70f-8db9-4ccb-9607-3ec4676fe1b5" />
