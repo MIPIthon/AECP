@@ -11,6 +11,7 @@ Analog Eddy Current Pickup (AECP) is an analog eddy current signal conditioner c
 - INA188 zero-drift chopper amplifier: Internal chopper (zero drift) is unnecessary and detrimental to the output noise of the circuit due to beat-frequencies generated caused by the chopper frequencies and the frequency content of the square wave synchronous rectifier. 
 Potential fix: Replace INA188 with INA828 (no chopper). If the common-mode voltage is approximately VCM=2.5V, the LT1167 is a suitable alternative (e.g. if the the RX part of the circuit is not directly connected to TXI and TXO (VCM=2.5V))
 
+
 FFT average: ACOUT, NoTarget, INA disconnected => White noise
 <img width="1151" height="637" alt="grafik" src="https://github.com/user-attachments/assets/31d0da18-3eeb-4da2-937e-f70c59ac9aa4" />
 
@@ -24,7 +25,7 @@ Time domain: TP6 => Distortion
 <img width="1296" height="725" alt="grafik" src="https://github.com/user-attachments/assets/b6596320-cca7-4906-8a33-5cb793261070" />
 
 Time domain: TXI => No distortion
-<img width="1296" height="725" alt="grafik" src="https://github.com/user-attachments/assets/b6596320-cca7-4906-8a33-5cb793261070" />
+<img width="1277" height="722" alt="grafik" src="https://github.com/user-attachments/assets/2c309294-0274-42ff-bd80-e94c473b1576" />
 
 
 <h2>Notes</h2>
