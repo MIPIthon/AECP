@@ -7,6 +7,13 @@ Analog Eddy Current Pickup (AECP) is an analog eddy current signal conditioner c
 
 ![AECP_A_PCB_BOTTOM](/AECP_A/documentation/images/pcba_bottom_small.jpg)
 
+<h2>Known issues</h2>
+- INA188 zero-drift chopper amplifier: Internal chopper (zero drift) is unnecessary and detrimental to the output noise of the circuit due to beat-frequencies generated caused by the chopper frequencies and the frequency content of the square wave synchronous rectifier. 
+Potential fix: Replace INA188 with INA828 (no chopper). If the common-mode voltage is approximately VCM=2.5V, the LT1167 is a suitable alternative (e.g. if the the RX part of the circuit is not directly connected to TXI and TXO (VCM=2.5V)
+
+<h2>Notes</h2>
+- Notch filter intended to suppress the signal frequency of two times the resonance frequency after rectification is not necessary. The currently used resistor and capacitor values are dummy values. 
+
 <h2>Use Cases</h2>
 
 - Guitar / musical instrument pickup
